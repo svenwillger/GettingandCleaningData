@@ -35,5 +35,5 @@ This tab-delimited dataset can be found in the clean.txt file.
 
 About the Code Book
 -------------------
-The CodeBook.md file explains the transformations performed and the resulting data and variables.
+The Code_Book.md file explains the transformations performed and the resulting data and variables.
 
