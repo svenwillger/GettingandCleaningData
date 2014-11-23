@@ -12,6 +12,7 @@ The same is true for the training set.
 The script and the clean dataset
 -------------------------------------
 To run the script two packages need to be installed and started:
+    
       - data.table
       - reshape2
 
