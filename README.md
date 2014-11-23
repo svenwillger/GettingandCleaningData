@@ -11,6 +11,10 @@ The same is true for the training set.
 
 The script and the clean dataset
 -------------------------------------
+To run the script two packages need to be installed and started:
+      - data.table
+      - reshape2
+
 The script run_analysis.R which will merge the test and training sets together.
 Labels will be added and only the columns with mean and standard deviation will be kept.
 
