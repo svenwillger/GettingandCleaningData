@@ -23,7 +23,7 @@ Requirements for this script:
       - features-info.txt
       - README.txt
       - folder: "test", with the original files
-      -folder: "train", with the original files
+      - folder: "train", with the original files
 
 The script will creat a clean data set containing the means of all the columns per test subject and per activity.
 This tab-delimited dataset can be found in the clean.txt file.
