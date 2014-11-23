@@ -1,28 +1,33 @@
 Getting and Cleaning Data: Course Project
 =========================================
 
-About the raw data
+The original data
 ------------------
 +
-The features (561 of them) are unlabeled and can be found in the x_test.txt.
+The features are unlabeled and can be found in the x_test.txt.
 The activity labels are in the y_test.txt file.
 The test subjects are in the subject_test.txt file.
-+The same holds for the training set.
+The same is true for the training set.
 +
-About the script and the tidy dataset
+The script and the clean dataset
 -------------------------------------
-I created a script called run_analysis.R which will merge the test and training sets together.
--After merging, labels are added and only columns that have to do with mean and standard deviation are kept.
-+Prerequisites for this script:
+The script run_analysis.R which will merge the test and training sets together.
+Labels will be added and only the columns with mean and standard deviation will be kept.
+
++Requirements for this script:
 +
-+1. the UCI HAR Dataset must be extracted and..
-+2. the UCI HAR Dataset must be availble in a directory called "UCI HAR Dataset"
-+
-+After merging testing and training, labels are added and only columns that have to do with mean and standard deviation are kept.
--Lastly, I created a tidy data set containing the means of all the columns per test subject and per activity.
--This tab-delimited dataset can be found in the tidy.txt file.
-+Lastly, the script will create a tidy data set containing the means of all the columns per test subject and per activity.
-+This tidy dataset will be written to a tab-delimited file called tidy.txt, which can also be found in this repository.
++1. the file with the original data needs to be downloaded and extracted
++2. the working directory must contain the following files and folder
+      - activity_labels.txt
+      - features.txt
+      - features-info.txt
+      - README.txt
+      - folder: "test", with the original files
+      -folder: "train", with the original files
+
+-The script will creat a clean data set containing the means of all the columns per test subject and per activity.
+-This tab-delimited dataset can be found in the clean.txt file.
+
 +About the Code Book
 +-------------------
 The CodeBook.md file explains the transformations performed and the resulting data and variables.
