@@ -1,7 +1,6 @@
 Getting and Cleaning Data: Course Project
 =========================================
 
-+
 About the raw data
 ------------------
 +
